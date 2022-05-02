@@ -2,9 +2,9 @@ package ec.com.sipca.demosipca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.web.servlet.config.annotation.CorsRegistry;
-//import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class DemosipcaApplication {
@@ -13,7 +13,7 @@ public class DemosipcaApplication {
 		SpringApplication.run(DemosipcaApplication.class, args);
 	}
 	
-	/*@Bean
+	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
 			@Override
@@ -21,6 +21,6 @@ public class DemosipcaApplication {
 				registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("*").allowedHeaders("*");
 			}
 		};
-	}*/
+	}
 
 }
