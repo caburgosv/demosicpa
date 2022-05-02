@@ -32,7 +32,7 @@ public class DepartmentRest {
 	
 	@GetMapping ("{id}")
 	private ResponseEntity<List<Department>> getEnterpriseById(@PathVariable("id") Long idEnterprise){
-		return ResponseEntity.ok(departmentService.findAllByEnterprise(idEnterprise.intValue()));
+		return ResponseEntity.ok(departmentService.findAllByEnterprise(idEnterprise));
 	}
 	
 	@PostMapping

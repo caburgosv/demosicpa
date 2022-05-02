@@ -27,7 +27,7 @@ public class DepartmentService implements DepartmentRepository{
 		return departmentRepository.findAll();
 	}
 	
-	public List<Department> findAllByEnterprise(Integer id){
+	public List<Department> findAllByEnterprise(Long id){
 		List<Department> departmentsResponse =  new ArrayList<>();
 		List<Department> departments = departmentRepository.findAll();
 		departments.forEach(dep -> {
