@@ -59,6 +59,22 @@ public class DepartmentEmploye implements Serializable{
 	@ManyToOne
 	@JoinColumn (name="ID_EMPLOYEE")
 	private Employe employe;
+	
+	public DepartmentEmploye() {
+		
+	}
+	
+	public DepartmentEmploye(String createdBy, Timestamp createdDate, String modifiedBy, Timestamp modifiedDate, String status,
+			Department departmet,Employe employe) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.modifiedBy = modifiedBy;
+		this.modifiedDate = modifiedDate;
+		this.status = status;
+		this.departmet =departmet;
+		this.employe = employe;
+	}
 	/**
 	 * @return the id
 	 */

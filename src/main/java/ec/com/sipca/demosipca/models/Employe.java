@@ -51,7 +51,7 @@ public class Employe implements Serializable{
 	
 	private String status;
 	
-	private int age;
+	private Integer age;
 	
 	private String email;
 	
@@ -61,6 +61,25 @@ public class Employe implements Serializable{
 	
 	//@Column(name = "POSITION")
 	private String positionn;
+	
+	public Employe(){
+		
+	}
+	
+	public Employe(String createdBy, Timestamp createdDate, String modifiedBy, Timestamp modifiedDate, String status,
+			Integer age, String email, String name,String surname,String positionn) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.modifiedBy = modifiedBy;
+		this.modifiedDate = modifiedDate;
+		this.status = status;
+		this.age = age;
+		this.email = email;
+		this.name = name;
+		this.surname = surname;
+		this.positionn = positionn;
+	}
 
 	/**
 	 * @return the id

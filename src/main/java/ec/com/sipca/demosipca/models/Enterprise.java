@@ -53,6 +53,22 @@ public class Enterprise implements Serializable{
 	private String name;
 	private String phone;
 	
+	public Enterprise() {
+	}
+	
+	public Enterprise(String createdBy, Timestamp createdDate, String modifiedBy, Timestamp modifiedDate, String status,
+			String address, String name, String phone) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.modifiedBy = modifiedBy;
+		this.modifiedDate = modifiedDate;
+		this.status = status;
+		this.address = address;
+		this.name = name;
+		this.phone = phone;
+	}
+	
 	/**
 	 * @return the id
 	 */

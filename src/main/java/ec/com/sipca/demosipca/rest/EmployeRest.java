@@ -29,7 +29,7 @@ import ec.com.sipca.demosipca.service.EmployeService;
  */
 
 @RestController
-@RequestMapping("/employeWs/")
+@RequestMapping(value="/employeWs/")
 public class EmployeRest {
 	
 	@Autowired

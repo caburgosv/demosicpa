@@ -61,6 +61,24 @@ public class Department implements Serializable{
 	@ManyToOne
 	@JoinColumn(name="ID_ENTERPRISE")
 	private Enterprise enterprise;
+	
+	public Department() {
+		
+	}
+	
+	public Department(String createdBy, Timestamp createdDate, String modifiedBy, Timestamp modifiedDate, String status,
+			 String description,String name,String phone, Enterprise enterprise) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.modifiedBy = modifiedBy;
+		this.modifiedDate = modifiedDate;
+		this.status = status;
+		this.description = description;
+		this.name = name;
+		this.phone=phone;
+		this.enterprise =enterprise;
+	}
 
 	/**
 	 * @return the id
