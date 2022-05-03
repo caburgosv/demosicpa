@@ -17,6 +17,16 @@ import org.springframework.web.bind.annotation.RestController;
 import ec.com.sipca.demosipca.models.Enterprise;
 import ec.com.sipca.demosipca.service.EnterpriseService;
 
+/**
+
+ * Clase que define los servicios web rest para gestion de empresa
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @RestController
 @RequestMapping("/enterpriseWs/")
 public class EnterpriseRest {

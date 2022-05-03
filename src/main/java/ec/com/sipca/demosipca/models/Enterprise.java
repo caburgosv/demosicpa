@@ -14,6 +14,16 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+/**
+
+ * Clase entidad mepeo que representa la tabla empresa
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @SuppressWarnings("serial")
 @Entity
 @Data

@@ -15,6 +15,16 @@ import org.springframework.stereotype.Service;
 import ec.com.sipca.demosipca.models.Employe;
 import ec.com.sipca.demosipca.respository.EmployeRepository;
 
+/**
+
+ * Clase servicio para gestion del core de negocios de Employe
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @Service
 public class EmployeService implements EmployeRepository{
 	

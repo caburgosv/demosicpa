@@ -16,6 +16,17 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+
+/**
+
+ * Clase entidad mepeo que representa la relacion entre la tabla departamento empleado
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @SuppressWarnings("serial")
 @Entity
 @Data

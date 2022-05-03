@@ -16,6 +16,16 @@ import org.springframework.stereotype.Service;
 import ec.com.sipca.demosipca.models.Department;
 import ec.com.sipca.demosipca.respository.DepartmentRepository;
 
+/**
+
+ * Clase servicio para gestion del core de negocios de Department
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @Service
 public class DepartmentService implements DepartmentRepository{
 	

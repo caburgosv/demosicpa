@@ -18,6 +18,16 @@ import ec.com.sipca.demosipca.models.Department;
 import ec.com.sipca.demosipca.models.Enterprise;
 import ec.com.sipca.demosipca.service.DepartmentService;
 
+/**
+
+ * Clase que define los servicios web rest para gestion del departamento
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @RestController
 @RequestMapping("/departmetWs/")
 public class DepartmentRest {

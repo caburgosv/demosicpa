@@ -18,6 +18,16 @@ import ec.com.sipca.demosipca.models.Employe;
 import ec.com.sipca.demosipca.models.Enterprise;
 import ec.com.sipca.demosipca.service.EmployeService;
 
+/**
+
+ * Clase que define los servicios web rest para gestion del empleado
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @RestController
 @RequestMapping("/employeWs/")
 public class EmployeRest {

@@ -15,6 +15,16 @@ import org.springframework.stereotype.Service;
 import ec.com.sipca.demosipca.models.Enterprise;
 import ec.com.sipca.demosipca.respository.EnterpriseRepository;
 
+/**
+
+ * Clase servicio para gestion del core de negocios de Enterprise
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @Service
 public class EnterpriseService implements EnterpriseRepository {
 	

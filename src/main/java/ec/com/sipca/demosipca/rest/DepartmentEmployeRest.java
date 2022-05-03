@@ -18,6 +18,16 @@ import ec.com.sipca.demosipca.models.DepartmentEmploye;
 import ec.com.sipca.demosipca.models.Employe;
 import ec.com.sipca.demosipca.service.DepartmentEmployeService;
 
+/**
+
+ * Clase que define los servicios web rest para gestion del departamento empleado
+
+ * @author: Carlos Burgos
+
+ * @version: 2/05/2022
+
+ */
+
 @RestController
 @RequestMapping("/departmentEmployeWs/")
 public class DepartmentEmployeRest {
